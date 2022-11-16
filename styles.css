@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+.container{
+    display: grid;
+    grid: 200px;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+   
+}
+.box{
+    background-color: bisque;
+    border: 1px solid black;}
+/* }
+#item1{
+   grid: 200px;
+   width: 200px;
+   height: 100px;
+  
+}
+#item2{
+    grid: 200px;
+    width: 200px;
+    height: 100px;
+
+}
+#item3{
+    grid: 200px;
+    width: 200px;
+    height: 100px;
+   
+}
+#item4{
+    grid: 200px;
+    width: 200px;
+    height: 100px;
+    
+} */
